@@ -1,0 +1,15 @@
+PASSO EXTRA PARA GERAR O APK PELO TABLET (NA NUVEM)
+
+Este pacote contém um workflow do GitHub Actions. Ele permite compilar o APK em um servidor na nuvem, sem instalar Android Studio no tablet. O APK só será criado depois que o workflow terminar com sucesso.
+
+IMPORTANTE: o arquivo APK gerado por este fluxo é uma versão de teste (debug), não uma versão assinada para publicação na Google Play. Não publique o projeto em repositório público se adicionar dados pessoais, senhas ou chaves. Este projeto não precisa de senhas ou chaves para a compilação de teste.
+
+Resumo do processo:
+1. Extraia este ZIP no tablet.
+2. Entre no GitHub e crie um repositório novo, vazio.
+3. Envie os arquivos e pastas extraídos para esse repositório, mantendo a estrutura. A pasta .github também precisa ser enviada.
+4. Abra a aba Actions do repositório e escolha “Gerar APK do Desafio Matemático 100”.
+5. Toque em “Run workflow”. Aguarde o processo ficar verde.
+6. Abra a execução concluída e baixe o artefato “Desafio-Matematico-100-APK”. Dentro dele estará app-debug.apk.
+
+O GitHub documenta o envio de arquivos pelo navegador e o Actions permite guardar arquivos de compilação como artefatos. Se aparecer erro, não instale nada: envie uma captura da mensagem para receber ajuda.

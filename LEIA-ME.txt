@@ -1,0 +1,34 @@
+# Desafio Matemático 100 — projeto Android offline
+
+Este pacote contém:
+- `app/src/main/assets/index.html`: jogo completo em HTML, CSS e JavaScript;
+- um invólucro Android nativo simples que abre o jogo dentro de um WebView;
+- armazenamento local do progresso pelo navegador interno (sem conta e sem servidor).
+
+## O que já funciona no protótipo
+- quatro operações e modo misturado;
+- cinco perguntas por partida, sem cronômetro;
+- uma segunda tentativa antes da explicação;
+- pontos, moedas, fases, perfil, conquistas e loja básica de personagens;
+- salvamento local no próprio aparelho.
+
+## Importante: estado real deste pacote
+Este é o **código-fonte do projeto Android**, não um APK já compilado. O ambiente onde o pacote foi preparado não tem Android SDK/Gradle instalado, então não foi possível compilar, instalar ou testar um APK final aqui. Não instale arquivos APK de terceiros que prometam ser este aplicativo.
+
+## Como gerar o APK
+1. Em um computador, instale o Android Studio.
+2. Extraia este ZIP.
+3. No Android Studio, escolha **Open** e selecione a pasta `Desafio_Matematico_100_Projeto_Android`.
+4. Aguarde o Gradle sincronizar e os componentes do Android serem instalados.
+5. Use **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
+6. O Android Studio mostrará a localização do APK gerado.
+
+A primeira sincronização precisa de internet para baixar as ferramentas de desenvolvimento. Depois de instalado, o jogo em si roda offline.
+
+## Ainda não incluído
+- anúncios (nenhuma rede de anúncios foi conectada);
+- arte 3D final dos cinco personagens e itens de roupas/acessórios;
+- testes em vários aparelhos e revisão de acessibilidade;
+- preparação/publicação na Google Play.
+
+Como o público do jogo inclui crianças, anúncios e publicação exigem revisão cuidadosa das regras atuais de privacidade e conteúdo infantil, com ajuda de um responsável adulto. A versão atual não pede permissões de internet e não envia dados para servidores.
